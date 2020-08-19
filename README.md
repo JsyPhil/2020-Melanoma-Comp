@@ -72,6 +72,19 @@ Many experiments were carried out utilising a train/validation split of the data
 - Test time augmentation (TTA)
 - Model ensemble methods
 
+###### What worked well:
+- Larger models (B5, B6 and B7) with larger image sizes
+- Upsampling
+- Blending meta data from both probability models and XGBoost models
+- External data especially HAM10000
+- Image augmentations in training, validation and in particular, TTA.
+
+###### What didn't work:
+- Feature enginieering in the meta data, inparticular image sizes due to distribution issues
+- Complex ensembles
+- Ensembles of predictions publicised during the competition
+- Early stopping, training teneded to carry on going leading to overfitting, primarily due to class imbalance and the lack of positive samples.
+
 ###### Final Selection
 
 Experiments were carried out on all the models and image sizes. Results for each experiment were logged. The most promising were then used in a 5 fold cross validation process to review training loss and AUC scores from each cross validation fold together with standard deviation scores. These Out of Fold (OOF) scores were analysed to determine stability and success in the models. These scores were also logged and occasionally compared against Kaggle public leaderboard scores to further help determine cross validation stability.
