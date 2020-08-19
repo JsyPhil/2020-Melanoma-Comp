@@ -71,6 +71,7 @@ Many experiments were carried out utilising a train/validation split of the data
 - Searching for meta-data mix optimisation
 - Test time augmentation (TTA)
 - Model ensemble methods
+- Using AUC and Loss as analysis metrics
 
 ###### What worked well:
 - Larger models (B5, B6 and B7) with larger image sizes
