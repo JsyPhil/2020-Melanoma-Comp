@@ -28,12 +28,6 @@ Results were
 - Aproach Two - 0.8395
 - 50:50 Combination - 0.9194
 
-Using These Files
-
-This repo contains all the files which were used to build the final ensemble including experimentation models, cross validation models, final models, logs and the ensemble notebooks.
-
-The data files are not included and these would need to be imported into models. These are available on Kaggle.
-
 #### Common Challenges
 
 ###### Class Imbalance
@@ -93,6 +87,18 @@ A final ensemble of all eight predictions using a weighted average method was us
 We used innovative image manipulation techniques across both RGB and HSL image spectrums for each sample.
 
 Models were built using image-only data in Pytorch. OOF predictions were used in the final enseble using models Efficientnet B0 to Efficientnet B4.
+
+#### Using This Repo
+
+The prediction files used in the final ensemble together with notebooks with the models used to generate these predictions are included.
+
+The notebooks to build the cross validation OOF predictions are included.
+
+The notebooks to build out experiments are included. 
+
+Logs and summaries of experiments and cross val scores are included.
+
+Datasets will required to be downloaded from Kaggle.
 
 ##### *Kaggle Dataset
 
