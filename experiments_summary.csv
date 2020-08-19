@@ -1,9 +1,0 @@
-EFN Model,Image Size,2018 Data,2020 18 Malignant,All Malignant,Minor Cutout,Major Cutout,,CV Score,CV LB Score,,Final Epochs,Final Batch,Final Config,Final Meta,,Final LB Score
-EB0,192,0.911,0.918,0.911,0.909,0.909,,0.915,0.9333,,12,16,2020 18 Malignant,0.16,,0.9388
-EB1,256,0.932,0.972,0.975,0.974,0.959,,0.976,0.9379,,35,64,All Malignant,0.03,,0.9274
-EB2,256,0.92,0.963,0.964,0.963,0.947,,0.98,0.9343,,38,64,All Malignant,0.06,,0.9224
-EB3,384,0.911,0.921,0.913,0.918,0.91,,0.936,0.9479,,10,32,2020 18 Malignant,0.13,,
-EB4,384,0.909,0.916,0.916,0.919,0.923,,0.934,0.9513,,10,32,Major Cutout,0.1,,
-EB5,512,0.91,0.93,0.921,0.92,0.934,,,,,,,Major Cutout,,,
-EB6,512,,0.934,0.924,,0.931,,,,,,,2020 18 Malignant,,,
-EB7,768,,0.9082,0.919,,0.928,,,,,15,64,Major Cutout,0,,
