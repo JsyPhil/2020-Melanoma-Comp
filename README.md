@@ -84,7 +84,7 @@ Many experiments were carried out utilising a train/validation split of the data
 - Feature enginieering in the meta data, inparticular image sizes due to distribution issues
 - Complex ensembles
 - Ensembles of predictions publicised during the competition
-- Early stopping, training teneded to carry on going leading to overfitting, primarily due to class imbalance and the lack of positive samples.
+- Early stopping, models didn't stop early, valuation metrics didn't plateau or worsen so training tended to carry on going leading to overfitting. This was primarily due to class imbalance and the lack of positive samples.
 
 ###### Final Selection
 
