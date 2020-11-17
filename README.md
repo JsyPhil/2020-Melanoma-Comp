@@ -94,7 +94,7 @@ Once the best cross validation scores were observed based on AUC score and stabi
 
 Each of these models included a specific mix of meta-data predictions based on a simple probability model with a search technique testing all possible iterations between 0.1% and 30% mix on every cross validation fold. The mix which provided the best mean AUC score across the cross validation process was determined.
 
-A final ensemble of all eight predictions using a weighted average method was used to calculate the final predictions for submission in the competition. This included a 10% mix of predictions using an XGBoost model to make predictions using patient meta-data including age, sex and area of the body in which the legion exists.
+A final ensemble of all eight predictions using a weighted average method was used to calculate the final predictions for submission in the competition. This included a 10% mix of predictions using an XGBoost model to make predictions using patient meta-data including age, sex and area of the body in which the lesion exists.
 
 #### Approach Two
 
